@@ -1,0 +1,88 @@
+/******************************************/
+/*              General CSS               */
+/******************************************/
+*{
+    border: red solid 1px;
+}
+
+/******************************************/
+/*              Header                    */
+/******************************************/
+.header{
+    background-color: #ffffff;
+}
+
+.header-row{
+    display: flex;
+    align-items: center;
+}
+
+.navigatie-col{
+    padding-right: 5px;
+    text-align: right;
+}
+
+#navigatie ul{
+    float: right;
+    text-align: right;
+    list-style: none;
+    margin: auto;
+    padding-left: 10px;
+}
+
+#navigatie ul li{
+    float: left;
+    text-decoration: none;
+    padding: 7.5px;
+}
+
+/******************************************/
+/*              Splash                    */
+/******************************************/
+.splash{
+    background-color: #ffffff;
+}
+
+/******************************************/
+/*              Profile                   */
+/******************************************/
+.profile{
+    background-color: #ffffff;
+}
+
+/******************************************/
+/*              Contactform               */
+/******************************************/
+.contactform{
+    background-color: #022F40;
+}
+
+/******************************************/
+/*              Footer                    */
+/******************************************/
+.footer{
+    background-color: #252323;
+}
+
+/******************************************/
+/*               Media Query              */
+/******************************************/
+@media only screen and (max-width: 767px) {
+    #navigatie{
+        position:absolute;
+        right:0;
+    }
+
+    #navigatie ul{
+        margin-bottom: 5px;
+        max-width: 140px;
+    }
+
+
+    #navigatie ul li{
+        float: right;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+}
